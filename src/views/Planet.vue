@@ -18,7 +18,10 @@
     <h2 class="card-title text-2xl">Mercury</h2>
     <p class="text-lg">Mercury is the closest planet to the Sun in our Solar System. </p>
     <div class="card-actions justify-end">
-      <button class="btn glass capitalize ">Learn more ...</button>
+      <router-link to="/card">
+        <button class="btn glass capitalize ">Learn more ...</button>
+      </router-link>
+      
     </div>
   </div>
 </div>
