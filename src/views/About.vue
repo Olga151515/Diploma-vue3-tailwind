@@ -2,15 +2,15 @@
 
 <template>
    
-    <div class="  bg-[url('../public/Planet.gif')]
-     h-screen bg-cover flex flex-col justify-between  ">
+    <div class="  bg-[url('../public/stars.jpeg')]
+     h-screen bg-cover flex flex-col  grow  ">
         
     
         <div class="navbar">
            
   <div class="flex-1">
     <router-link to="/" >
-    <a class="btn btn-circle normal-case text-xl">
+    <a class="btn glass btn-circle btn-outline text-xl">
         <i class="fa-sharp fa-solid fa-earth-americas text-4xl "></i>
     </a>
 </router-link>
@@ -24,19 +24,24 @@
         <router-link to='/planet'>
       <li><a>Planet</a></li>
     </router-link>
+    <router-link to='/contact'>
       <li><a>Contact</a></li>
+    </router-link>
     </ul>
   </div>
 </div>
     <div class="flex  justify-center">
-        <div class="card lg:card-side bg-base-100 shadow-xl w-1/2  ">
-  <figure><img src="https://media1.giphy.com/media/3og0IFrHkIglEOg8Ba/giphy.gif?cid=ecf05e477bmoi9ymmuhei4st43osb12va5cczy4ob9m2ppta&rid=giphy.gif&ct=g" alt="Jet"/></figure>
-  <div class="card-body">
-    <h2 class="card-title">New album is released!</h2>
-    <p>Click the button to listen on Spotiwhy app.</p>
+        <div class="card lg:card-side bg-base-100 shadow-xl  h-96 w-2/3 ">
+  <img src="https://media3.giphy.com/media/bXhiABcqQGT3W/giphy.gif?cid=ecf05e476z4s7gj2ttjy7umlv6pywrtpo99p9to2fh2yxwvx&rid=giphy.gif&ct=g" 
+    alt="Planet" />
+  <div class="card-body card-compact">
+    <h2 class="card-title">Solar System</h2>
+    <p>The Solar System is the gravitationally bound system of the Sun and the 
+      objects that orbit it. It formed 4.6 billion years ago from the gravitational 
+      collapse of a giant interstellar molecular cloud. </p>
     <div class="card-actions justify-end">
         <router-link to='/planet'>
-            <button class="btn btn-primary">Planets</button>
+            <button class="btn  glass">Planets</button>
         </router-link>
      
     </div>

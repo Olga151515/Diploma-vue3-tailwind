@@ -5,7 +5,6 @@
 <template>
   <div class="w-full  h-screen relative ">
    
-   
 <router-view v-slot="{Component, route}">
 <transition name="slide">
   <component :is="Component" />

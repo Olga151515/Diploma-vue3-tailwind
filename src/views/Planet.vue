@@ -3,11 +3,9 @@
 <template>
     <div class="bg-[url('../public/giphy.gif')] w-full h-screen bg-cover ">
 <router-link to="/" >
-  <div class="flex  gap-2 items-center ">
-   
+  <div class="flex  gap-2 items-center hover:text-sky-800 w-32 justify-center  ">
         <i class="fa-sharp fa-solid fa-earth-americas text-xl "></i>
-       <div>Home</div> 
-   
+          <div>Home</div> 
   </div>
 </router-link>
       
@@ -20,7 +18,7 @@
     <h2 class="card-title text-2xl">Mercury</h2>
     <p class="text-lg">Mercury is the closest planet to the Sun in our Solar System. </p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary">Learn more ...</button>
+      <button class="btn glass ">Learn more ...</button>
     </div>
   </div>
 </div>
