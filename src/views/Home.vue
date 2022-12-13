@@ -2,7 +2,7 @@
 
 <template >
     
-<div class=" w-full h-screen bg-cover flex items-center  bg-[url('../public/night.gif')]
+<div class=" w-full h-screen bg-cover flex items-center  bg-[url('../night.gif')]
 flex-col justify-between">
 
     <div class="navbar">
@@ -26,8 +26,11 @@ flex-col justify-between">
   </div>
 </div> 
 <div class="flex justify-between items-center gap-14">
-  
-    <p class="text-4xl text- ">Solar System</p>
+
+  <Transition name="slide-fade">
+    <p class="text-4xl font-semibold font-serif ">Solar System</p>
+</Transition>
+   
 
       <img src="https://media0.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy.gif?cid=ecf05e47acauar5na0s8f0h1ax61aiommhhjo73p814b13g7&rid=giphy.gif&ct=g" 
       class="object-contain "
@@ -41,3 +44,18 @@ flex-col justify-between">
 </div>
 </template>
 
+<style>
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
+}
+
+.slide-fade-leave-active {
+  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
+}
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(20px);
+  opacity: 0;
+}
+</style>

@@ -7,7 +7,6 @@
 object-cover bg-[url('../public/Moon.gif')] ">
     <div class=" text-center text-4xl mt-3"> Contacts: </div>
 
-   
 
     <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
   <div class="grid grid-flow-col gap-4">

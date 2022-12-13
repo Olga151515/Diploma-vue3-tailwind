@@ -2,7 +2,7 @@
 
 <template>
    
-    <div class="  bg-[url('../public/stars.jpeg')]
+    <div class="  bg-[url('../stars.jpeg')]
      h-screen bg-cover flex flex-col  grow  ">
         
     
@@ -35,13 +35,13 @@
   <img src="https://media3.giphy.com/media/bXhiABcqQGT3W/giphy.gif?cid=ecf05e476z4s7gj2ttjy7umlv6pywrtpo99p9to2fh2yxwvx&rid=giphy.gif&ct=g" 
     alt="Planet" />
   <div class="card-body card-compact">
-    <h2 class="card-title">Solar System</h2>
+    <h2 class="card-title font-bold font-mono">Solar System</h2>
     <p>The Solar System is the gravitationally bound system of the Sun and the 
       objects that orbit it. It formed 4.6 billion years ago from the gravitational 
       collapse of a giant interstellar molecular cloud. </p>
     <div class="card-actions justify-end">
         <router-link to='/planet'>
-            <button class="btn  glass">Planets</button>
+            <button class="btn  glass font-semibold capitalize font-serif">Planets</button>
         </router-link>
      
     </div>
