@@ -1,14 +1,17 @@
 <script setup>
+import BackHome from '../components/BackHome.vue';
+
 
 </script>
 
 <template>
    <div class="container flex flex-col items-center justify-center gap-6 mt-7">
+   
     <div>
         <img src="https://media2.giphy.com/media/wdeczeuXkGYkE/giphy.gif?cid=ecf05e47iwrjh6ggc4ljaczi15tne0gqw7baq0uv4p819qy4&rid=giphy.gif&ct=g" 
         alt="Mercury">
     </div>
-    <div class="container flex flex-col  items-center p-4 text-left">
+    <div class=" ml-5 container flex flex-col  items-center p-4 text-left  outline-double ">
         <h2 class="text-2xl font-bold font-serif">
             Mercury
         </h2>
@@ -34,11 +37,7 @@
             every two Mercurian years.
         </p>
     </div>
-    <router-link to="/">
-        <div class="btn glass mb-10 capitalize">
-        Home
-    </div>
-    </router-link>
+    <BackHome />
    
    </div>
 </template>

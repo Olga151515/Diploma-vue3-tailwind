@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 1s ease;
+}
+
+.slide-left-enter-to {
+  position: absolute;
+  bottom: 0;
+}
+
+.slide-left-enter-from {
+  position: absolute;
+  bottom: -100% ;
+}
+.slide-left-leave-to {
+  position: absolute;
+  top:  -100%;
+}
+
+.slide-left-leave-from {
+  position: absolute;
+  top: 0 ;
+}
+
+
+/*  */
+.slide-right-enter-to {
+    position: absolute;
+    top: 0;
+  }
+  
+  .slide-right-enter-from {
+    position: absolute;
+    top: -100% ;
+  }
+  .slide-right-leave-to {
+    position: absolute;
+    bottom:  -100%;
+  }
+  
+  .slide-right-leave-from {
+    position: absolute;
+    bottom: 0 ;
+  }
