@@ -23,7 +23,7 @@ flex-col justify-between relative">
       alt="Earth">
 </div>
     <router-link to="/about"  >
-      <div class="text-6xl btn glass btn-info btn-circle ">
+      <div class="text-6xl btn glass  btn-circle ">
         <i class="fas fa-arrow-circle-down text-4xl "></i>
     </div>
     </router-link>
