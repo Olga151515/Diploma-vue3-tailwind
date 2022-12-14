@@ -13,8 +13,9 @@ flex-col justify-between relative">
 <div class="flex justify-between items-center gap-14">
 
   <transition  name="bounce">
-    <h1 class="text-4xl font-semibold font-serif">Solar System  
-      <i class="fa-sharp fa-solid fa-earth-americas text-4xl "></i></h1>
+    <h1 class="text-4xl font-semibold font-serif ">Solar System  
+      <span class="material-icons text-4xl ">rocket_launch</span>
+    </h1>
 </transition>
    
 
@@ -23,9 +24,8 @@ flex-col justify-between relative">
       alt="Earth">
 </div>
     <router-link to="/about"  >
-      <div class="text-6xl btn glass  btn-circle ">
-        <i class="fas fa-arrow-circle-down text-4xl "></i>
-    </div>
+      <span class="material-icons text-4xl btn glass btn-circle">expand_more
+      </span>
     </router-link>
 </div>
 </template>

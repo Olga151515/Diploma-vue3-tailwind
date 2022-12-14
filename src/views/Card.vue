@@ -37,7 +37,7 @@ import BackHome from '../components/BackHome.vue';
             every two Mercurian years.
         </p>
     </div>
-    <BackHome />
+     <BackHome />
    
    </div>
 </template>

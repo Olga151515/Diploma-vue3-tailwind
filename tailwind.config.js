@@ -11,6 +11,8 @@ module.exports = {
       'Jet': "url('../public/Jet.gif')",
       'Jet': "url('../public/giphy.gif')",
       'Jet': "url('../stars.jpeg')",
+      'Jet': "url('../Space2.jpeg')",
+      'Jet': "url('../StarSky.jpeg')",
       'Jet': "url('../public/stars1.gif')",
       'Jet': "url('../night.gif')",
       'Jet': "url('../public/Moon.gif')",

@@ -5,7 +5,7 @@ import PlanetCard from '../components/PlanetCard.vue';
 </script>
 
 <template>
-    <div class="bg-[url('../public/giphy.gif')] w-full h-full bg-cover ">
+    <div class="bg-[url('../public/Space2.jpeg')] w-full h-full bg-cover ">
       <BackHome />
 
       <PlanetCard />
