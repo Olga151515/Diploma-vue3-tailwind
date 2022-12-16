@@ -8,7 +8,7 @@ import NavBar from '../components/NavBar.vue';
 <div class=" w-full h-full bg-cover flex items-center  bg-[url('../night.gif')]
 flex-col justify-between relative">
 
-  <NavBar />
+  <!-- <NavBar /> -->
 
 <div class="flex justify-between items-center gap-14">
 
