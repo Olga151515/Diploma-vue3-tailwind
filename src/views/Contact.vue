@@ -10,11 +10,14 @@ object-cover bg-[url('../public/Moon.gif')] ">
 
     <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
   <div class="grid grid-flow-col gap-4">
-    <router-link to="/" ><a class="link link-hover">About us</a> </router-link>
+    <router-link to="/" ><a class="link link-hover">Home</a> </router-link>
+    <router-link to="/about" >
+    <a class="link link-hover">About us</a> 
+  </router-link>
+  <router-link to="/planet" >
+    <a class="link link-hover">Planets</a> 
+  </router-link>
     
-    <a class="link link-hover">Contact</a> 
-    <a class="link link-hover">Jobs</a> 
-    <a class="link link-hover">Press kit</a>
   </div> 
   <div>
     <div class="grid grid-flow-col gap-4">
