@@ -3,8 +3,6 @@
 </script>
 
 <template>
-   <div class="text-center font-bold font-serif text-4xl  ">
-    Planets
     <div class="card w-96 bg-base-100 shadow-xl">
   <figure><img src="https://www.farmersalmanac.com/wp-content/uploads/2010/08/Mercury-planet-as_102739845.jpeg" alt="Shoes" /></figure>
   <div class="card-body ">
@@ -20,6 +18,6 @@
     </div>
   </div>
 </div>
-</div>
+
 
 </template>
