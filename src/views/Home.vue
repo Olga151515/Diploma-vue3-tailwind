@@ -1,57 +1,64 @@
 <script setup>
-import NavBar from '../components/NavBar.vue';
+import { onMounted, ref } from "vue";
+import NavBar from "../components/NavBar.vue";
 
+const showH1 = ref(false);
+
+onMounted(() => {
+  showH1.value = true;
+});
 </script>
 
-<template >
-    
-<div class=" w-full h-full bg-cover flex items-center  bg-[url('../night.gif')]
-flex-col justify-between relative">
+<template>
+  <div
+    class="w-full h-full bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
+  >
+    <!-- <NavBar /> -->
 
-  <!-- <NavBar /> -->
+    <div class="flex justify-between items-center gap-14">
+      <transition name="bounce">
+        <h1 class="text-4xl font-semibold font-serif" v-if="showH1">
+          Solar System
+          <span class="material-icons text-4xl">rocket_launch</span>
+        </h1>
+      </transition>
 
-<div class="flex justify-between items-center gap-14">
-
-  <transition  name="bounce">
-    <h1 class="text-4xl font-semibold font-serif ">Solar System  
-      <span class="material-icons text-4xl ">rocket_launch</span>
-    </h1>
-</transition>
-   
-
-      <img src="https://media0.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy.gif?cid=ecf05e47acauar5na0s8f0h1ax61aiommhhjo73p814b13g7&rid=giphy.gif&ct=g" 
-      class="object-contain "
-      alt="Earth">
-</div>
-    <router-link to="/about"  >
-      <span class="material-icons text-4xl btn glass btn-circle">expand_more
+      <img
+        src="https://media0.giphy.com/media/l5JbspfwZ0yjHjlJ0K/giphy.gif?cid=ecf05e47acauar5na0s8f0h1ax61aiommhhjo73p814b13g7&rid=giphy.gif&ct=g"
+        class="object-contain earth-mask"
+        alt="Earth"
+      />
+    </div>
+    <router-link to="/about">
+      <span class="material-icons text-4xl btn glass btn-circle"
+        >expand_more
       </span>
     </router-link>
-</div>
+  </div>
 </template>
 
 <style>
 .bounce-enter-active,
 .bounce-leave-active {
   transition: all 1s ease;
+  transition-delay: 1s;
 }
-.bounce-enter-to {
-  position: absolute;
-  right: 0;
+.bounce-enter-to,
+.bounce-leave-from {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .bounce-enter-from {
-  position: absolute;
-  left: -100% ;
+  opacity: 0;
+  transform: translateX(-300px);
 }
 .bounce-leave-to {
-  position: absolute;
-  right:  -100%;
+  opacity: 0;
+  transform: translateX(300px);
 }
 
-.bounce-leave-from {
-  position: absolute;
-  left: 0 ;
+.earth-mask {
+  mask-image: url(../assets/earth_mask.png);
 }
-
 </style>
