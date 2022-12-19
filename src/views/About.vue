@@ -6,7 +6,7 @@ import NavBar from '../components/NavBar.vue';
 
 <template>
    
-    <div class=" relative bg-[url('../stars.jpeg')] h-full bg-cover flex flex-col  grow ">  
+    <div class=" relative bg-[url('../stars.jpeg')] min-h-screen  bg-cover flex flex-col  ">  
        
       <NavBar />
       <router-link  to="/" > 

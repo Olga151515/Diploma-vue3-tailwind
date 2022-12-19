@@ -11,11 +11,11 @@ onMounted(() => {
 
 <template>
   <div
-    class="w-full h-full bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
+    class="w-full min-h-screen  bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
   >
-    <!-- <NavBar /> -->
+    <NavBar />
 
-    <div class="flex justify-between items-center gap-14">
+    <div class="flex justify-between items-center gap-10">
       <transition name="bounce">
         <h1 class="text-4xl font-semibold font-serif" v-if="showH1">
           Solar System

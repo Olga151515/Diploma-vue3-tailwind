@@ -1,24 +1,26 @@
 <script setup>
 import BackHome from '../components/BackHome.vue';
+import NavBar from '../components/NavBar.vue';
 
 
 </script>
 
 <template>
-    
-   <div class="container flex flex-col items-center justify-center gap-4 m-2 ">
+    <NavBar />
+   <div class="container flex flex-col items-center justify-center min-h-screen  m-2 ">
     <router-link to="/planet" > 
         <BackHome class="absolute top-0 left-1/2" /> 
       </router-link>
-    <div class="mt-12">
+    <div >
         <img src="https://media1.giphy.com/media/l0HlO4V8iCRME3i0g/giphy.gif?cid=ecf05e47ku6tndqpwjvvt2huwna3xrxmuqqvspyqcys93612&rid=giphy.gif&ct=g" 
-      alt="Mercury">
+      alt="Mercury" class="w-96">
     </div>
-    <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 outline-double ">
+    <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 outline-double
+    bg-base-300 ">
         <h2 class="text-2xl font-bold font-serif">
             Mercury
         </h2>
-        <p class="p-10 ">
+        <p class="p-6">
             Mercury is the smallest planet in the Solar System and the closest to the Sun. 
             Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. 
             It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, 

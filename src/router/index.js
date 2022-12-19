@@ -7,7 +7,7 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      transitionName: "slide-right",
+      transitionName: "slide-down",
       order: 0,
     },
   },
@@ -16,7 +16,7 @@ const routes = [
     name: "About",
     component: () => import("../views/About.vue"),
     meta: {
-      transitionName: "slide-right",
+      transitionName: "slide-up",
       order: 1,
     },
   },
@@ -25,7 +25,7 @@ const routes = [
     name: "Planet",
     component: () => import("../views/Planet.vue"),
     meta: {
-      transitionName: "slide-left",
+      transitionName: "slide-up",
       order: 2,
     },
   },
@@ -34,7 +34,7 @@ const routes = [
     name: "Contact",
     component: () => import("../views/Contact.vue"),
     meta: {
-      transitionName: "slide-left",
+      transitionName: "slide-up",
       order: 3,
     },
   },
@@ -43,7 +43,7 @@ const routes = [
     name: "Card",
     component: () => import("../views/Card.vue"),
     meta: {
-      transitionName: "slide-left",
+      transitionName: "slide-up",
       order: 4,
     },
   },

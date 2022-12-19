@@ -13,6 +13,9 @@ import BackHome from './BackHome.vue';
          
            <div class="flex-none">
              <ul class="menu menu-horizontal px-1">
+              <router-link to='/'>
+               <li><a>Home</a></li>
+             </router-link>
                  <router-link to="/about"  >
                      <li><a>About</a></li>
                  </router-link>
@@ -39,9 +42,7 @@ import BackHome from './BackHome.vue';
                    <li><a>Neptune</a></li>
                  </ul>
                </li>
-             <router-link to='/contact'>
-               <li><a>Contact</a></li>
-             </router-link>
+            
              </ul>
            </div>
          </div>

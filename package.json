@@ -12,6 +12,7 @@
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
     "vue": "^3.2.33",
+    "vue-page-transition": "^0.2.2",
     "vue-router": "4",
     "vue2-animate": "^2.1.4"
   },

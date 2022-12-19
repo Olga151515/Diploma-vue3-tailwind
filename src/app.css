@@ -2,49 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-.slide-left-enter-active,
-.slide-left-leave-active,
-.slide-right-enter-active,
-.slide-right-leave-active {
+.slide-down-enter-active,
+.slide-down-leave-active,
+.slide-up-enter-active,
+.slide-up-leave-active {
   transition: all 1s ease;
 }
 
-.slide-left-enter-to {
+.slide-down-enter-to {
   position: absolute;
-  bottom: 0;
+  bottom: -100%;
 }
 
-.slide-left-enter-from {
+.slide-down-enter-from {
   position: absolute;
-  bottom: -100% ;
+  bottom: 0 ;
 }
-.slide-left-leave-to {
+.slide-down-leave-to {
   position: absolute;
-  top:  -100%;
-}
-
-.slide-left-leave-from {
-  position: absolute;
-  top: 0 ;
+  top:  0;
 }
 
+.slide-down-leave-from {
+  position: absolute;
+  top: -100% ;
+}
 
-/*  */
-.slide-right-enter-to {
+
+
+.slide-up-enter-to {
     position: absolute;
     top: 0;
   }
   
-  .slide-right-enter-from {
+  .slide-up-enter-from {
     position: absolute;
     top: -100% ;
   }
-  .slide-right-leave-to {
+  .slide-up-leave-to {
     position: absolute;
     bottom:  -100%;
   }
   
-  .slide-right-leave-from {
+  .slide-up-leave-from {
     position: absolute;
     bottom: 0 ;
+  }
+
+  .planets {
+    @apply grid gap-4 ;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
   }

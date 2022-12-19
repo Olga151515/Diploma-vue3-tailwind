@@ -13,9 +13,9 @@ const transitionName = ref("");
 </script>
 
 <template>
-  <div class="w-full h-screen relative">
+  <div class="w-full min-h-screen relative overflow-hidden">
     <router-view v-slot="{ Component, route }">
-      <transition :name="route.meta.transitionName" mode="default">
+      <transition :name="route.meta.transitionName" >
         <component :is="Component" />
       </transition>
     </router-view>
