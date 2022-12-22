@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="card  bg-base-200 shadow-xl w-auto">
+    <div class="card  bg-base-200 shadow-xl w-auto rounded-lg">
   <img src="https://www.farmersalmanac.com/wp-content/uploads/2010/08/Mercury-planet-as_102739845.jpeg" alt="Shoes" />
   <div class="card-body ">
     <h2 class="card-title text-center text-2xl">Mercury</h2>

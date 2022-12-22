@@ -7,7 +7,7 @@ import NavBar from '../components/NavBar.vue';
 
 <template>
     <NavBar />
-   <div class="container flex flex-col items-center justify-center min-h-screen  m-2 ">
+   <div class=" flex flex-col items-center justify-center h-fit  m-2 ">
     <router-link to="/planet" > 
         <BackHome class="absolute top-0 left-1/2" /> 
       </router-link>
@@ -15,12 +15,12 @@ import NavBar from '../components/NavBar.vue';
         <img src="https://media1.giphy.com/media/l0HlO4V8iCRME3i0g/giphy.gif?cid=ecf05e47ku6tndqpwjvvt2huwna3xrxmuqqvspyqcys93612&rid=giphy.gif&ct=g" 
       alt="Mercury" class="w-96">
     </div>
-    <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 outline-double
+    <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 
     bg-base-300 ">
         <h2 class="text-2xl font-bold font-serif">
             Mercury
         </h2>
-        <p class="p-6">
+        <p class="p-6 ">
             Mercury is the smallest planet in the Solar System and the closest to the Sun. 
             Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. 
             It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, 
@@ -38,6 +38,22 @@ import NavBar from '../components/NavBar.vue';
             It is tidally locked with the Sun in a 3:2 spin–orbit resonance, meaning that relative to the fixed stars, 
             it rotates on its axis exactly three times for every two revolutions it makes around the Sun.
             
+        </p>
+       
+    </div>
+    <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 
+    bg-base-300 ">
+        <h3 class="text-2xl font-bold font-serif">Neptune Facts</h3>
+        <p class="p-6 ">Average temperature: -201°C (-331°F) where atmospheric pressure equals sea level on Earth
+            Average distance from Sun: 4,495 million kilometers (2,793 million miles), or 30 times farther from the Sun than Earth
+            Diameter: 49,528 kilometers (30,775 miles), Neptune is 3.9 times wider than Earth
+            Volume: 63 trillion km3 (15 trillion mi3), Earth could fit inside Neptune 63 times
+            Gravity: 11 m/s², or 1.1 times that of Earth’s
+            Solar day: 16 Earth hours
+            Solar year: 60,190 Earth days
+            Atmosphere: 80% hydrogen, 19% helium, 1% other gases
+            Neptune is about four times wider than Earth. If Earth were a large apple, Neptune would be the size of a basketball.
+            Neptune orbits our Sun, a star, and is the eighth planet from the Sun at a distance of about 2.8 billion miles (4.5 billion kilometers).
         </p>
     </div>
    
