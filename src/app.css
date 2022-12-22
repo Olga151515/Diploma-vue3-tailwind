@@ -11,21 +11,21 @@
 
 .slide-down-enter-to {
   position: absolute;
-  bottom: -100%;
+  bottom: 0%;
 }
 
 .slide-down-enter-from {
   position: absolute;
-  bottom: 0 ;
+  bottom: -100% ;
 }
 .slide-down-leave-to {
   position: absolute;
-  top:  0;
+  top:  -100%;
 }
 
 .slide-down-leave-from {
   position: absolute;
-  top: -100% ;
+  top: 0 ;
 }
 
 

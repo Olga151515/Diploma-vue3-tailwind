@@ -7,7 +7,7 @@ const routes = [
     name: "Home",
     component: Home,
     meta: {
-      transitionName: "slide-down",
+      transitionName: "slide-up",
       order: 0,
     },
   },
@@ -30,20 +30,11 @@ const routes = [
     },
   },
   {
-    path: "/contact",
-    name: "Contact",
-    component: () => import("../views/Contact.vue"),
-    meta: {
-      transitionName: "slide-up",
-      order: 3,
-    },
-  },
-  {
     path: "/card",
     name: "Card",
     component: () => import("../views/Card.vue"),
     meta: {
-      transitionName: "slide-up",
+      transitionName: "slide-down",
       order: 4,
     },
   },

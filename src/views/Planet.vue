@@ -11,7 +11,7 @@ import PlanetCard from '../components/PlanetCard.vue';
         <BackHome class="absolute top-0 left-1/2" /> 
       </router-link>
       
-    <div class="bg-[url('../public/Space2.jpeg')] w-full min-h-screen  bg-cover 
+    <div class="bg-[url('../public/Space2.jpeg')] w-full h-fit  bg-cover 
     container lg:p-4">
       
     <div class="planets">

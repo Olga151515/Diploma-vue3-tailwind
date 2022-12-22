@@ -11,7 +11,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="w-full min-h-screen  bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
+    class="w-full h-fill bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
   >
     <NavBar />
 
