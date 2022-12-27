@@ -6,7 +6,7 @@ import NavBar from '../components/NavBar.vue';
 
 <template>
    
-    <div class=" relative bg-[url('../stars.jpeg')] h-fit  bg-cover flex flex-col  ">  
+    <div class="  bg-[url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1493&q=80')] h-screen bg-contain flex flex-col  ">  
        
       <NavBar />
       <router-link  to="/" > 
@@ -17,7 +17,7 @@ import NavBar from '../components/NavBar.vue';
         <div class="card lg:card-side bg-base-100 shadow-xl  h-96 w-2/3 ">
   <img src="https://media3.giphy.com/media/bXhiABcqQGT3W/giphy.gif?cid=ecf05e476z4s7gj2ttjy7umlv6pywrtpo99p9to2fh2yxwvx&rid=giphy.gif&ct=g" 
     alt="Planet" />
-  <div class="card-body card-compact">
+  <div class="card-body card-compact bg-base-200">
     <h2 class="card-title font-bold font-mono">Solar System</h2>
     <p>The Solar System is the gravitationally bound system of the Sun and the 
       objects that orbit it. It formed 4.6 billion years ago from the gravitational 

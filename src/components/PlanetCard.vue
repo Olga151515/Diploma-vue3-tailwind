@@ -1,6 +1,6 @@
 <script setup>
 
-defineProps(['planet'])
+defineProps(['planet']);
 
 </script>
 

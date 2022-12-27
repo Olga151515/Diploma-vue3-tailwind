@@ -13,22 +13,20 @@ fetchPlanets()
 </script>
 
 <template>
+  <div>
   <NavBar />
   <router-link to="/about" > 
         <BackHome class="absolute top-0 left-1/2" /> 
       </router-link>
       
-    <div class="bg-[url('/Space2.jpeg')] w-full h-fit  bg-cover 
-    container lg:p-4">
+    <div class=" w-full h-fit container lg:p-4">
     <div class="planets">
       <PlanetCard v-for="planet in planets"
       :key="planet.id"
       :planet="planet"
       />
-      
-
     </div>
-      
+  </div>
     </div>
 
 </template>
