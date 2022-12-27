@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.7",
+    "axios": "^1.2.1",
     "daisyui": "^2.15.0",
     "global": "^4.4.0",
     "json-server": "^0.17.1",
+    "pinia": "^2.0.28",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24",
     "vue": "^3.2.33",
