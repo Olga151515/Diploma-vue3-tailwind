@@ -17,7 +17,7 @@ onMounted(() => {
 
     <div class="flex justify-between items-center gap-10">
       <transition name="bounce">
-        <h1 class="text-4xl font-semibold font-serif" v-if="showH1">
+        <h1 class="text-4xl font-semibold font-serif text-info-content italic" v-if="showH1">
           Solar System
           <span class="material-icons text-4xl">rocket_launch</span>
         </h1>

@@ -3,6 +3,7 @@ import BackHome from '../components/BackHome.vue';
 import NavBar from '../components/NavBar.vue';
 
 
+
 </script>
 
 <template>
@@ -13,14 +14,14 @@ import NavBar from '../components/NavBar.vue';
       </router-link>
     <div >
         <img src="https://media1.giphy.com/media/l0HlO4V8iCRME3i0g/giphy.gif?cid=ecf05e47ku6tndqpwjvvt2huwna3xrxmuqqvspyqcys93612&rid=giphy.gif&ct=g" 
-      alt="Mercury" class="w-96">
+      alt="Mercury" class="w-96 ">
     </div>
     <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 
     bg-base-300 ">
         <h2 class="text-2xl font-bold font-serif">
-            Mercury
+           Mercury
         </h2>
-        <p class="p-6 ">
+        <p class="p-6 text-info-content">
             Mercury is the smallest planet in the Solar System and the closest to the Sun. 
             Its orbit around the Sun takes 87.97 Earth days, the shortest of all the Sun's planets. 
             It is named after the Roman god Mercurius (Mercury), god of commerce, messenger of the gods, 
@@ -43,8 +44,8 @@ import NavBar from '../components/NavBar.vue';
     </div>
     <div class=" ml-5 container flex flex-col  items-center p-4 text-left h-80 
     bg-base-300 ">
-        <h3 class="text-2xl font-bold font-serif">Neptune Facts</h3>
-        <p class="p-6 ">Average temperature: -201°C (-331°F) where atmospheric pressure equals sea level on Earth
+        <h3 class="text-2xl font-bold font-serif ">Neptune Facts</h3>
+        <p class="p-6 text-info-content ">Average temperature: -201°C (-331°F) where atmospheric pressure equals sea level on Earth
             Average distance from Sun: 4,495 million kilometers (2,793 million miles), or 30 times farther from the Sun than Earth
             Diameter: 49,528 kilometers (30,775 miles), Neptune is 3.9 times wider than Earth
             Volume: 63 trillion km3 (15 trillion mi3), Earth could fit inside Neptune 63 times

@@ -18,13 +18,13 @@ import NavBar from '../components/NavBar.vue';
   <img src="https://media3.giphy.com/media/bXhiABcqQGT3W/giphy.gif?cid=ecf05e476z4s7gj2ttjy7umlv6pywrtpo99p9to2fh2yxwvx&rid=giphy.gif&ct=g" 
     alt="Planet" />
   <div class="card-body card-compact bg-base-200">
-    <h2 class="card-title font-bold font-mono">Solar System</h2>
-    <p>The Solar System is the gravitationally bound system of the Sun and the 
+    <h2 class="card-title font-bold font-mono text-info-content">Solar System</h2>
+    <p >The Solar System is the gravitationally bound system of the Sun and the 
       objects that orbit it. It formed 4.6 billion years ago from the gravitational 
       collapse of a giant interstellar molecular cloud. </p>
     <div class="card-actions justify-end">
         <router-link to='/planet'>
-            <button class="btn  glass font-semibold capitalize font-serif">
+            <button class="btn  glass font-semibold capitalize font-serif rounded-md">
               <i class="fa-sharp fa-solid fa-earth-americas pr-2 "></i>
               Planets</button>
         </router-link>
