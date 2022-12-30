@@ -22,10 +22,11 @@ defineProps(["planet"]);
       {{ planet.shortDescription }}  
     </p>
     <div class="card-actions justify-end">
-      <router-link to="/card">
+      <router-link :to="`/card/${planet.slug}`">
         <button class="btn glass capitalize rounded-md">
             <span class="material-icons mr-2 ">travel_explore</span>
-            Learn more </button>
+            Learn more 
+        </button>
       </router-link>
      
     </div>
