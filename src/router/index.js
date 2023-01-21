@@ -30,7 +30,7 @@ const routes = [
     },
   },
   {
-    path: "/card",
+    path: "/card/:planet",
     name: "Card",
     component: () => import("../views/Card.vue"),
     meta: {

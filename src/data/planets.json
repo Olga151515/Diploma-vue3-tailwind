@@ -1,77 +1,76 @@
 {
-    "planets": [
-        {
-            "id": 1,
-            "name": "Mercury",
-            "slug": "mercury",
-            "image": "https://media1.giphy.com/media/l0HlO4V8iCRME3i0g/giphy.gif?cid=ecf05e47ku6tndqpwjvvt2huwna3xrxmuqqvspyqcys93612&rid=giphy.gif&ct=g",
-            "shortDescription": "Mercury orbits the sun faster than all the other planets in the solar system.",
-            "facts": "",
-            "description": "Mercury orbits the sun faster than all the other planets in the solar system. Because the planet is so close to the sun, Mercury's surface temperature can reach a scorching 840 degrees Fahrenheit (450 degrees Celsius). However, since this world doesn't have much of a real atmosphere to entrap any heat, at night temperatures can plummet to minus 275 degrees Fahrenheit (minus degrees 170 Celsius), a temperature swing of more than 1,100 degrees Fahrenheit (600 degrees Celsius), the greatest in the solar system."
-           
-        },
-        {
-            "id": 2,
-            "name": "Vinus",
-            "slug": "vinus",
-            "image": "https://media1.giphy.com/media/l0MYB89UFsVqLY5oc/giphy.gif",
-            "shortDescription": "A day on Venus is longer than a year. It takes Venus longer to rotate once on its axis than to complete one orbit of the Sun.",
-            "facts": "",
-            "description": "A day on Venus is longer than a year. It takes Venus longer to rotate once on its axis than to complete one orbit of the Sun. That’s 243 Earth days to rotate once – the longest rotation of any planet in the Solar System – and only 224.7 Earth days to complete an orbit of the Sun."
-        },
-        {
-            "id": 3,
-            "name": "Earth",
-            "slug": "earth",
-            "image": "https://media2.giphy.com/media/DMUFPG2niG1TW/giphy.gif?cid=ecf05e47ifsgshushggjnf137pjdmr9a49ooxzds00rntjf1&rid=giphy.gif&ct=g",
-            "shortDescription": "Earth, our home, is the third planet from the sun.",
-            "facts": "",
-            "description": "Earth, our home, is the third planet from the sun. While scientists continue to hunt for clues of life beyond Earth, our home planet remains the only place in the universe where we've ever identified living organisms. "
-        },
-        {
-            "id": 4,
-            "name": "Mars",
-            "slug": "mars",
-            "image": "https://thumbs.gfycat.com/InfantileHorribleDunlin-size_restricted.gif",
-            "shortDescription": "Mars, the fourth planet from the sun, is a dry, rocky world whose iconic red color has earned it the nickname the Red Planet.",
-            "facts": "",
-            "description": "Mars, the fourth planet from the sun, is a dry, rocky world whose iconic red color has earned it the nickname the Red Planet. Mars has fascinated people throughout history, and today, it is one of the most explored bodies in the solar system, with many rovers and orbiters searching the planet for evidence of life, past or present."
-        },
-        {
-            "id": 5,
-            "name": "Jupiter",
-            "slug": "jupiter",
-            "image": "https://media4.giphy.com/media/s2uampOAMWksU/giphy.gif",
-            "shortDescription": "Jupiter is the largest planet in the solar system and the fifth planet from the sun.",
-            "facts": "",
-            "description": "Jupiter is the largest planet in the solar system and the fifth planet from the sun. The gas giant has a long, rich, history of surprising scientists.Named after the kind of the gods in Roman mythology this king of the planets is a stormy enigma shrouded in colorful clouds. Its most prominent and most famous storm, the Great Red Spot, is twice the width of Earth. "
-        },
-        {
-            "id": 6,
-            "name": "Saturn",
-            "slug": "saturn",
-            "image": "https://i.pinimg.com/originals/eb/24/09/eb2409fa11b564c90d109813b8cd9533.gif",
-            "shortDescription": "Saturn is almost twice as far from the Sun as Jupiter at nearly 900 million miles.",
-            "facts": "",
-            "description": "Saturn is almost twice as far from the Sun as Jupiter at nearly 900 million miles.  It is second in size in our solar system, surpassed only by Jupiter, but Saturn's mass is much smaller. Saturn's specific gravity is less than water's, meaning it would float on a body of water!  Like Jupiter, Saturn rotates extremely fast, and completes a rotation in about 10 hours.  It takes a little over 29 years to make one revolution around the Sun.  Saturn has 60 confirmed satellites, many of which are buried inside Saturn's smaller ring systems which are being discovered by NASA's Cassini spacecraft.  It is very difficult for astronomers to count the number of moons revolving around Saturn, because it is difficult to distinguish between tiny moons and the numerous ice chunks composing Saturn's smaller ringlets.  The large moon Titan is the most interesting in terms of atmospheric composition (mentioned below).  It is likely more satellites will be found in the future when astronomers diagnose Saturn's small, thin rings, and separate the ice chunks from actual satellites. "
-        },
-        {
-            "id": 7,
-            "name": "Uranus",
-            "slug": "uranus",
-            "image": "https://i.gifer.com/PAx.gif",
-            "shortDescription": "Uranus’ atmosphere is mostly hydrogen and helium like Jupiter and Saturn",
-            "facts": "",
-            "description": "Uranus’ atmosphere is mostly hydrogen and helium like Jupiter and Saturn, with traces of methane that absorb red light and give the planet its cyan appearance. Beneath the atmosphere is an exotic slush of partially frozen water, ammonia, and methane. For this reason, we call Uranus an ice giant, even though the ice isn’t like anything you’d put in your drink: super-compressed ice can reach temperatures of thousands of degrees!"
-        },
-        {
-            "id": 8,
-            "name": "Neptune",
-            "slug": "neptune",
-            "image": "https://thumbs.gfycat.com/GoodGlisteningDutchshepherddog-size_restricted.gif",
-            "shortDescription": "Neptune, along with its cousin Uranus, is the least-explored planet in our solar system",
-            "facts": "",
-            "description": "Neptune, along with its cousin Uranus, is the least-explored planet in our solar system, having been visited by a spacecraft only once. Yet we’ve found more Neptune-sized worlds orbiting other stars than any other type of planet. In order to understand other solar systems and figure out whether our own is unique, we need to learn more about the windy blue world in our own backyard."
-        }
-    ]
+  "planets": [
+    {
+      "id": 1,
+      "name": "Mercury",
+      "slug": "mercury",
+      "image": "https://media1.giphy.com/media/l0HlO4V8iCRME3i0g/giphy.gif?cid=ecf05e47ku6tndqpwjvvt2huwna3xrxmuqqvspyqcys93612&rid=giphy.gif&ct=g",
+      "shortDescription": "Mercury orbits the sun faster than all the other planets in the solar system.",
+      "facts": "",
+      "description": "Mercury orbits the sun faster than all the other planets in the solar system. Because the planet is so close to the sun, Mercury's surface temperature can reach a scorching 840 degrees Fahrenheit (450 degrees Celsius). However, since this world doesn't have much of a real atmosphere to entrap any heat, at night temperatures can plummet to minus 275 degrees Fahrenheit (minus degrees 170 Celsius), a temperature swing of more than 1,100 degrees Fahrenheit (600 degrees Celsius), the greatest in the solar system."
+    },
+    {
+      "id": 2,
+      "name": "Vinus",
+      "slug": "vinus",
+      "image": "https://media1.giphy.com/media/l0MYB89UFsVqLY5oc/giphy.gif",
+      "shortDescription": "A day on Venus is longer than a year. It takes Venus longer to rotate once on its axis than to complete one orbit of the Sun.",
+      "facts": "",
+      "description": "A day on Venus is longer than a year. It takes Venus longer to rotate once on its axis than to complete one orbit of the Sun. That’s 243 Earth days to rotate once – the longest rotation of any planet in the Solar System – and only 224.7 Earth days to complete an orbit of the Sun."
+    },
+    {
+      "id": 3,
+      "name": "Earth",
+      "slug": "earth",
+      "image": "https://media2.giphy.com/media/DMUFPG2niG1TW/giphy.gif?cid=ecf05e47ifsgshushggjnf137pjdmr9a49ooxzds00rntjf1&rid=giphy.gif&ct=g",
+      "shortDescription": "Earth, our home, is the third planet from the sun.",
+      "facts": "",
+      "description": "Earth, our home, is the third planet from the sun. While scientists continue to hunt for clues of life beyond Earth, our home planet remains the only place in the universe where we've ever identified living organisms. "
+    },
+    {
+      "id": 4,
+      "name": "Mars",
+      "slug": "mars",
+      "image": "https://thumbs.gfycat.com/InfantileHorribleDunlin-size_restricted.gif",
+      "shortDescription": "Mars, the fourth planet from the sun, is a dry, rocky world whose iconic red color has earned it the nickname the Red Planet.",
+      "facts": "",
+      "description": "Mars, the fourth planet from the sun, is a dry, rocky world whose iconic red color has earned it the nickname the Red Planet. Mars has fascinated people throughout history, and today, it is one of the most explored bodies in the solar system, with many rovers and orbiters searching the planet for evidence of life, past or present."
+    },
+    {
+      "id": 5,
+      "name": "Jupiter",
+      "slug": "jupiter",
+      "image": "https://media4.giphy.com/media/s2uampOAMWksU/giphy.gif",
+      "shortDescription": "Jupiter is the largest planet in the solar system and the fifth planet from the sun.",
+      "facts": "",
+      "description": "Jupiter is the largest planet in the solar system and the fifth planet from the sun. The gas giant has a long, rich, history of surprising scientists.Named after the kind of the gods in Roman mythology this king of the planets is a stormy enigma shrouded in colorful clouds. Its most prominent and most famous storm, the Great Red Spot, is twice the width of Earth. "
+    },
+    {
+      "id": 6,
+      "name": "Saturn",
+      "slug": "saturn",
+      "image": "https://i.pinimg.com/originals/eb/24/09/eb2409fa11b564c90d109813b8cd9533.gif",
+      "shortDescription": "Saturn is almost twice as far from the Sun as Jupiter at nearly 900 million miles.",
+      "facts": "",
+      "description": "Saturn is almost twice as far from the Sun as Jupiter at nearly 900 million miles.  It is second in size in our solar system, surpassed only by Jupiter, but Saturn's mass is much smaller. Saturn's specific gravity is less than water's, meaning it would float on a body of water!  Like Jupiter, Saturn rotates extremely fast, and completes a rotation in about 10 hours.  It takes a little over 29 years to make one revolution around the Sun.  Saturn has 60 confirmed satellites, many of which are buried inside Saturn's smaller ring systems which are being discovered by NASA's Cassini spacecraft.  It is very difficult for astronomers to count the number of moons revolving around Saturn, because it is difficult to distinguish between tiny moons and the numerous ice chunks composing Saturn's smaller ringlets.  The large moon Titan is the most interesting in terms of atmospheric composition (mentioned below).  It is likely more satellites will be found in the future when astronomers diagnose Saturn's small, thin rings, and separate the ice chunks from actual satellites. "
+    },
+    {
+      "id": 7,
+      "name": "Uranus",
+      "slug": "uranus",
+      "image": "https://i.gifer.com/PAx.gif",
+      "shortDescription": "Uranus’ atmosphere is mostly hydrogen and helium like Jupiter and Saturn",
+      "facts": "",
+      "description": "Uranus’ atmosphere is mostly hydrogen and helium like Jupiter and Saturn, with traces of methane that absorb red light and give the planet its cyan appearance. Beneath the atmosphere is an exotic slush of partially frozen water, ammonia, and methane. For this reason, we call Uranus an ice giant, even though the ice isn’t like anything you’d put in your drink: super-compressed ice can reach temperatures of thousands of degrees!"
+    },
+    {
+      "id": 8,
+      "name": "Neptune",
+      "slug": "neptune",
+      "image": "https://thumbs.gfycat.com/GoodGlisteningDutchshepherddog-size_restricted.gif",
+      "shortDescription": "Neptune, along with its cousin Uranus, is the least-explored planet in our solar system",
+      "facts": "",
+      "description": "Neptune, along with its cousin Uranus, is the least-explored planet in our solar system, having been visited by a spacecraft only once. Yet we’ve found more Neptune-sized worlds orbiting other stars than any other type of planet. In order to understand other solar systems and figure out whether our own is unique, we need to learn more about the windy blue world in our own backyard."
+    }
+  ]
 }

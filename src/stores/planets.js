@@ -29,7 +29,7 @@ export const usePlanetsStore = defineStore({
       this.loading = true;
       this.error = null;
       try {
-        const response = await axios.get(`${API_URL}/planets/${slug}`);
+        const response = await axios.get(`${API_URL}/planets?slug=${slug}`);
         this.planet = response.data[0];
       } catch (error) {
         this.error = error;
@@ -40,10 +40,10 @@ export const usePlanetsStore = defineStore({
     async getPlanet(slug) {
       try {
         const response = await axios.get(`${API_URL}/planets/${slug}`);
-        return response.data[0]
+        return response.data[0];
       } catch (error) {
         this.error = error;
-      } 
+      }
     },
   },
 });
