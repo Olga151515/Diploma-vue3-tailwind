@@ -32,9 +32,7 @@ import BackHome from './BackHome.vue';
                      <li><a>Mercury</a></li>
                    </router-link>
                    <li><a>Vinus</a></li>
-                   <li><a>
-                    <i class="fa-solid fa-earth-asia"></i>
-                    Earth</a></li>
+                   <li><a>Earth</a></li>
                    <li><a>Mars</a></li>
                    <li><a>Jupiter</a></li>
                    <li><a>Saturn</a></li>

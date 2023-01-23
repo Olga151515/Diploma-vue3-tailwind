@@ -16,14 +16,14 @@ fetchPlanet(route.params.planet);
 <template>
   <NavBar />
   <div
-    class="flex flex-col items-center justify-center h-fit m-2"
+    class="flex flex-col items-center justify-center   h-auto m-2 w-auto"
     v-if="planet"
   >
     <router-link to="/planet">
       <BackHome class="absolute top-0 left-1/2" />
     </router-link>
     <LoadingError :loading="loading" :error="error" />
-    <div>
+    <div class="">
       <img
         :src="
           planet.image
@@ -31,11 +31,11 @@ fetchPlanet(route.params.planet);
             : 'https://cdn3.vectorstock.com/i/1000x1000/91/47/error-404-astronaut-standing-on-the-planet-vector-23939147.jpg'
         "
         :alt="planet.name"
-        class="w-96"
+        class="w-80"
       />
     </div>
     <div
-      class="ml-5 container flex flex-col items-center p-4 text-left h-80 bg-base-300"
+      class="ml-5 container flex flex-col items-center w-auto p-4 text-left h-auto"
     >
       <h2 class="text-2xl font-bold font-serif">
         {{ planet.name }}
@@ -45,8 +45,7 @@ fetchPlanet(route.params.planet);
       </p>
     </div>
     <div
-      class="ml-5 container flex flex-col items-center p-4 text-left h-80 bg-base-300"
-    >
+      class="ml-5 container flex flex-col items-center p-4 w-auto text-left h-auto">
       <h3 class="text-2xl font-bold font-serif">
         Facts about {{ planet.name }}
       </h3>
@@ -54,5 +53,15 @@ fetchPlanet(route.params.planet);
         {{ planet.facts }}
       </p>
     </div>
+    <!-- <div
+      class="ml-5 container flex flex-col items-center w-auto p-4 text-left h-auto"
+    >
+      <h2 class="text-2xl font-bold font-serif">
+        Discovery
+      </h2>
+      <p class="p-6 text-info-content ">
+        {{ planet.descovery }}
+      </p>
+    </div> -->
   </div>
 </template>
