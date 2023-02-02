@@ -35,6 +35,16 @@ const routes = [
     component: () => import("../views/Card.vue"),
     meta: {
       transitionName: "slide-down",
+      order: 3,
+    },
+  },
+
+  {
+    path: "/asteroidBelt",
+    name: "Asteroid Belt",
+    component: () => import("../views/AsteroidBelt.vue"),
+    meta: {
+      transitionName: "slide-up",
       order: 4,
     },
   },

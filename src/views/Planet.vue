@@ -22,8 +22,8 @@ fetchPlanets()
       
     <LoadingError :loading="loading" :error="error"/>
 
-    <div class=" w-full h-fit container lg:p-4">
-    <div class="planets" v-if="!loading && !error ">
+    <div class=" w-full h-fit container lg:p-4 m-auto ">
+    <div class="planets " v-if="!loading && !error ">
       <PlanetCard v-for="planet in planets"
       :key="planet.id"
       :planet="planet"
