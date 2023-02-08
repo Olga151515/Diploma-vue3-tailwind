@@ -69,8 +69,8 @@
           <li><a>Asteroid Belt</a></li>
         </router-link>
         
-        <router-link to="/stars">
-          <li><a>Stars</a></li>
+        <router-link to="/gallery">
+          <li><a>Gallery</a></li>
         </router-link>
 
       </ul>

@@ -4,12 +4,15 @@ import  NavBar from "../components/NavBar.vue";
 </script>
 
 <template>
-<NavBar class="z-10" />
-    <div class="carousel  h-screen w-screen">
+  <div >
+<NavBar class=" sticky top-0" />
+    <div class="carousel relative  h-screen w-screen">
         
-  <div id="slide1" class="carousel-item relative w-full">
-    <img src="https://images.immediate.co.uk/production/volatile/sites/25/2021/02/GettyImages-183097871-f4941a3.jpg" 
+  <div id="slide1" class="carousel-item relative w-full ">
+ 
+      <img src="https://images.immediate.co.uk/production/volatile/sites/25/2021/02/GettyImages-183097871-f4941a3.jpg" 
     class="object-contain m-auto" />
+   
     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
       <a href="#slide3" class="btn btn-circle">❮</a> 
       <a href="#slide2" class="btn btn-circle">❯</a>
@@ -46,5 +49,6 @@ import  NavBar from "../components/NavBar.vue";
     </div>
   </div> 
   
+</div>
 </div>
 </template>

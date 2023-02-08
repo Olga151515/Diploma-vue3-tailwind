@@ -44,8 +44,18 @@ const routes = [
     name: "Asteroid Belt",
     component: () => import("../views/AsteroidBelt.vue"),
     meta: {
-      transitionName: "slide-up",
+      transitionName: "slide-down",
       order: 4,
+    },
+  },
+
+  {
+    path: "/gallery",
+    name: "Gallery",
+    component: () => import("../views/Gallery.vue"),
+    meta: {
+      transitionName: "slide-down",
+      order: 5,
     },
   },
 ];
