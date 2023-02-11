@@ -14,9 +14,8 @@ fetchPlanet(route.params.planet);
 </script>
 
 <template>
-  <NavBar />
   <div
-    class="flex flex-col items-center justify-center   h-auto m-2 w-auto"
+    class="flex flex-col items-center justify-center h-auto m-2 w-auto"
     v-if="planet"
   >
     <router-link to="/planet">
@@ -45,7 +44,8 @@ fetchPlanet(route.params.planet);
       </p>
     </div>
     <div
-      class="ml-5 container flex flex-col items-center p-4 w-auto text-left h-auto">
+      class="ml-5 container flex flex-col items-center p-4 w-auto text-left h-auto"
+    >
       <h3 class="text-2xl font-bold font-serif">
         Facts about {{ planet.name }}
       </h3>

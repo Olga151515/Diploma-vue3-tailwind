@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
 import { useRouter } from "vue-router";
+import NavBar from "./components/NavBar.vue";
 
 const router = useRouter();
 
@@ -13,10 +14,11 @@ const transitionName = ref("");
 </script>
 
 <template>
-  <div class="w-full min-h-screen relative overflow-hidden">
+  <div class="w-full h-screen relative overflow-x-hidden flex flex-col">
+    <NavBar />
     <router-view v-slot="{ Component, route }">
-      <transition :name="route.meta.transitionName" >
-        <component :is="Component" />
+      <transition :name="route.meta.transitionName">
+        <component class="grow" :is="Component" />
       </transition>
     </router-view>
   </div>

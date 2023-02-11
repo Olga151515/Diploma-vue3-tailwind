@@ -1,13 +1,11 @@
-
-
 <template>
-  <div class="navbar">
+  <div class="navbar bg-black sticky top-0 z-50">
     <div class="flex-1"></div>
 
     <div class="flex-none text-slate-400 font-semibold">
       <ul class="menu menu-horizontal px-1">
         <router-link to="/">
-          <li><a >Home  </a></li>
+          <li><a>Home </a></li>
         </router-link>
         <router-link to="/about">
           <li><a>About </a></li>
@@ -16,7 +14,7 @@
           <router-link to="/planet">
             <a class="flex gap-2 items-center">
               Planets
-               <svg
+              <svg
                 class="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -44,35 +42,33 @@
             </router-link>
 
             <router-link to="/card/mars">
-               <li><a>Mars</a></li>
+              <li><a>Mars</a></li>
             </router-link>
 
             <router-link to="/card/jupiter">
               <li><a>Jupiter</a></li>
             </router-link>
-          
+
             <router-link to="/card/saturn">
-               <li><a>Saturn</a></li>
+              <li><a>Saturn</a></li>
             </router-link>
-           
+
             <router-link to="/card/uranus">
               <li><a>Uranus</a></li>
             </router-link>
-            
+
             <router-link to="/card/neptune">
               <li><a>Neptune</a></li>
             </router-link>
-            
           </ul>
         </li>
         <router-link to="/asteroidBelt">
           <li><a>Asteroid Belt</a></li>
         </router-link>
-        
+
         <router-link to="/gallery">
           <li><a>Gallery</a></li>
         </router-link>
-
       </ul>
     </div>
   </div>

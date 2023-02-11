@@ -13,11 +13,12 @@ onMounted(() => {
   <div
     class="w-full h-fill bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
   >
-    <NavBar />
-
     <div class="flex justify-between items-center gap-10">
       <transition name="bounce">
-        <h1 class="text-4xl font-semibold font-serif text-slate-400 italic" v-if="showH1">
+        <h1
+          class="text-4xl font-semibold font-serif text-slate-400 italic"
+          v-if="showH1"
+        >
           Solar System
           <span class="material-icons text-4xl">rocket_launch</span>
         </h1>
