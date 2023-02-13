@@ -10,7 +10,6 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
-const transitionName = ref("");
 </script>
 
 <template>

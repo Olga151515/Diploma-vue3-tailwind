@@ -3,7 +3,6 @@ import { storeToRefs } from "pinia";
 import { useRoute } from "vue-router";
 import { usePlanetsStore } from "../stores/planets";
 import BackHome from "../components/BackHome.vue";
-import NavBar from "../components/NavBar.vue";
 import LoadingError from "../components/LoadingError.vue";
 
 const { planet, loading, error } = storeToRefs(usePlanetsStore());

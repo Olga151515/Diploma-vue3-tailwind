@@ -1,5 +1,5 @@
 <script setup>
-import NavBar from "../components/NavBar.vue";
+
 </script>
 
 <template>
@@ -19,12 +19,13 @@ import NavBar from "../components/NavBar.vue";
         </div>
       </div>
 
-      <!-- <div id="slide2" class="carousel-item relative w-full">
-        <div class="flex justify-evenly gap-6 mr-20 ml-20 mt-36">
-          <img
+      <div id="slide2" class="carousel-item relative w-full  ">
+        <div class="flex items-center gap-6 mr-20 ml-20 mt-36 md:gap-4 md:mr-4 md:mt-8
+        md:ml-8 sm:mt-2 sm:mr-2 sm:ml-4">
+          <img class="lg:w-3/4 md:w-2/3 sm:w-1/2 object-contain"
             src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Asteroids-KnownNearEarthObjects-Animation-UpTo20180101.gif"
           />
-          <p>
+          <p class="  md:w-80 sm:w-60 ">
             The asteroid belt is a torus-shaped region in the Solar System,
             centered on the Sun and roughly spanning the space between the
             orbits of the planets Jupiter and Mars. It contains a great many
@@ -45,12 +46,13 @@ import NavBar from "../components/NavBar.vue";
           <a href="#slide3" class="btn btn-circle">❯</a>
         </div>
       </div>
-      <div id="slide3" class="carousel-item relative w-full">
-        <div class="flex justify-evenly gap-6 mr-20 ml-20 mt-36">
-          <img
+      <div id="slide3" class="carousel-item relative w-full ">
+        <div class="flex   items-center gap-6 mr-20 ml-20 mt-36 md:gap-4 md:mr-8 md:mt-8 
+        md:ml-8 sm:mt-2 sm:mr-2 sm:ml-4">
+          <img class="lg:w-3/4 md:w-2/3 sm:w-1/2 sm:object-contain"
             src="https://scitechdaily.com/images/Interstellar-Asteroids.gif"
           />
-          <P>
+          <P class="  md:w-80 sm:w-60">
             The asteroid belt is the smallest and innermost known circumstellar
             disc in the Solar System. Classes of small Solar System bodies in
             other regions are the near-Earth objects, the centaurs, the Kuiper
@@ -67,7 +69,7 @@ import NavBar from "../components/NavBar.vue";
           <a href="#slide2" class="btn btn-circle">❮</a>
           <a href="#slide1" class="btn btn-circle">❯</a>
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>

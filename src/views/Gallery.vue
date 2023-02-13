@@ -1,15 +1,7 @@
 <script setup>
-import NavBar from "../components/NavBar.vue";
-import { storeToRefs } from "pinia";
-import { useGalleryStore } from "../stores/gallery";
-
-import LoadingError from "../components/LoadingError.vue";
 import { ref } from "vue";
 
-const { loading, error } = storeToRefs(useGalleryStore());
-const { fetchGallery } = useGalleryStore();
 
-fetchGallery();
 
 const picOfTheDay = ref("");
 
@@ -32,45 +24,17 @@ gallery();
 </script>
 
 <template>
-  <div v-if="!loading && !error">
-    <div
-      class="carousel h-screen"
-      v-for="galleries in gallery"
-      :key="galleries.id"
-      :gallery="galleries"
-    >
-      <div id="item1" class="carousel-item w-screen object-fit">
-        {{ galleries.url }}
-        {{ galleries.explanation }}
-        <img
-          src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
-          class="w-full"
-        />
-      </div>
-      <div id="item2" class="carousel-item w-screen">
-        <img
-          src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
-          class="w-full"
-        />
-      </div>
-      <div id="item3" class="carousel-item w-screen">
-        <img
-          src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
-          class="w-full"
-        />
-      </div>
-      <div id="item4" class="carousel-item w-screen">
-        <img
-          src="https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80"
-          class="w-full"
-        />
-      </div>
-    </div>
-    <div class="flex justify-center w-full py-2 gap-2">
-      <a href="#item1" class="btn btn-xs">1</a>
-      <a href="#item2" class="btn btn-xs">2</a>
-      <a href="#item3" class="btn btn-xs">3</a>
-      <a href="#item4" class="btn btn-xs">4</a>
-    </div>
+  <div class="flex items-center flex-col m-auto container justify-evenly  ">
+   <h1 class="text-3xl text-slate-100">Astronomy Picture of the Day {{ picOfTheDay.date }}</h1>
+      <div class="flex items-center flex-col">
+  <div class="card-body flex items-center  ">
+    <h2 class="card-title text-center text-2xl font-black text-sky-700 ">{{ picOfTheDay.title }}</h2>
+    <p>{{ picOfTheDay.explanation }}</p>
   </div>
+  <img class=" h-3/4   object-contain "
+    :src="picOfTheDay.url"
+   :alt="picOfTheDay.title">
+ 
+</div>
+    </div>
 </template>

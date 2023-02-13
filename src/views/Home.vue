@@ -1,6 +1,5 @@
 <script setup>
 import { onMounted, ref } from "vue";
-import NavBar from "../components/NavBar.vue";
 
 const showH1 = ref(false);
 
