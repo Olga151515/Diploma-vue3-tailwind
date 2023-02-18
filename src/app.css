@@ -10,52 +10,73 @@
 .slide-down-leave-active,
 .slide-up-enter-active,
 .slide-up-leave-active {
-  transition: all 1s ease;
+  transition: all 0.75s ease;
+  opacity: 1;
 }
 
 .slide-down-enter-to {
   position: absolute;
-  bottom: 0%;
+  /* bottom: 0%; */
+  transform: translateY(0);
 }
 
 .slide-down-enter-from {
   position: absolute;
-  bottom: -100%;
+  /* bottom: -100%; */
+  opacity: 0;
+  transform: translateY(100%);
 }
 .slide-down-leave-to {
   position: absolute;
-  top: -100%;
+  /* top: -100%; */
+  opacity: 0;
+  transform: translateY(-100%);
 }
 
 .slide-down-leave-from {
   position: absolute;
-  top: 0;
+  /* top: 0; */
+  transform: translateY(0);
 }
 
 .slide-up-enter-to {
   position: absolute;
-  top: 0;
+  /* top: 0; */
+  transform: translateY(0);
 }
 
 .slide-up-enter-from {
   position: absolute;
-  top: -100%;
+  /* top: -100%; */
+  opacity: 0;
+  transform: translateY(-100%);
 }
 .slide-up-leave-to {
   position: absolute;
-  bottom: -100%;
+  /* bottom: -100%; */
+  opacity: 0;
+  transform: translateY(100%);
 }
 
 .slide-up-leave-from {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
+  transform: translateY(0);
 }
 
 .planets {
-  @apply grid gap-6;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  @apply grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5;
 }
 
 .carousel-item {
   height: calc(100vh - 64px);
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper:has([class*="slide-"]) {
+  overflow-y: hidden;
 }

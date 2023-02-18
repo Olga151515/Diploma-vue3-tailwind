@@ -30,8 +30,8 @@ onMounted(() => {
       />
     </div>
     <router-link to="/about">
-      <span class="material-icons text-4xl btn glass btn-circle"
-        >expand_more
+      <span class="material-icons text-4xl btn glass btn-circle -translate-y-2">
+        expand_more
       </span>
     </router-link>
   </div>

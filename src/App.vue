@@ -9,15 +9,14 @@ router.beforeEach((to, from, next) => {
   console.log(to);
   next();
 });
-
 </script>
 
 <template>
-  <div class="w-full h-screen relative overflow-x-hidden flex flex-col">
+  <div class="wrapper w-full h-screen relative overflow-x-hidden flex flex-col">
     <NavBar />
     <router-view v-slot="{ Component, route }">
       <transition :name="route.meta.transitionName">
-        <component class="grow" :is="Component" />
+        <component class="grow pt-16" :is="Component" />
       </transition>
     </router-view>
   </div>

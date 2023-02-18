@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-black sticky top-0 z-50 ">
+  <div class="navbar bg-black fixed top-0 w-full z-50">
     <div class="flex-1"></div>
 
     <div class="flex-none text-slate-400 font-semibold">
@@ -67,10 +67,15 @@
         </router-link>
 
         <router-link to="/gallery">
-          <li><a>Gallery   
-            <img class="w-7"
-      src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg" 
-      alt="NASA"></a></li>
+          <li>
+            <a
+              >Gallery
+              <img
+                class="w-7"
+                src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"
+                alt="NASA"
+            /></a>
+          </li>
         </router-link>
       </ul>
     </div>

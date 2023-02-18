@@ -12,10 +12,9 @@ fetchPlanets();
 
 <template>
   <div>
-    
     <LoadingError :loading="loading" :error="error" />
 
-    <div class="w-full h-fit container lg:p-4 m-auto">
+    <div class="lg:p-4">
       <div class="planets" v-if="!loading && !error">
         <PlanetCard
           v-for="planet in planets"

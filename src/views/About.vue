@@ -1,12 +1,9 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
   <div
     class="bg-[url('https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1493&q=80')] h-screen bg-contain flex flex-col"
   >
-    
     <transition name="slide-fade">
       <div class="flex justify-center mt-10">
         <div class="card lg:card-side bg-base-100 shadow-xl h-96 w-2/3">
