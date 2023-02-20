@@ -80,3 +80,9 @@ html {
 .wrapper:has([class*="slide-"]) {
   overflow-y: hidden;
 }
+
+
+.text-gallery {
+  @apply   text-sm md:text-xl
+}
+

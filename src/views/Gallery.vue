@@ -29,7 +29,7 @@ gallery();
   <div class="flex items-center flex-col">
     <div class="flex items-center">
       <img
-        class="w-24"
+        class="w-20"
         src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"
         alt="NASA"
       />
@@ -41,13 +41,14 @@ gallery();
       </h1>
     </div>
 
-    <div class="flex max-w-6xl mx-auto items-stretch gap-6 mt-8">
+    <div class=" flex-col  flex max-w-6xl m-8  gap-4 mt-8 md:flex-row">
       <div
-        class="basis-60 grow cursor-pointer rounded-lg overflow-hidden ring-4 ring-gray-500 relative"
+        class=" m-auto cursor-pointer rounded-lg overflow-hidden ring-2 ring-gray-500 
+        relative"
         @click="onShow"
       >
         <img
-          class="w-full h-full object-cover"
+          class=" object-fill  "
           :src="picOfTheDay.url"
           :alt="picOfTheDay.title"
         />
@@ -57,11 +58,11 @@ gallery();
           zoom_in
         </span>
       </div>
-      <div class="shrink max-w-[75%]">
+      <div class="shrink max-w-[75%] p-6">
         <h2 class="text-2xl font-black text-sky-600 mb-3">
           {{ picOfTheDay.title }}
         </h2>
-        <p>{{ picOfTheDay.explanation }}</p>
+        <p class="text-sm  lg:text-lg">{{ picOfTheDay.explanation }}</p>
       </div>
     </div>
     <vue-easy-lightbox

@@ -20,22 +20,18 @@
       </div>
 
       <div id="slide2" class="carousel-item relative w-full  ">
-        <div class="flex items-center  m-auto gap-6 ml-20 mt-36  md:gap-4  md:mt-8
-        md:ml-8 sm:mt-2 sm:mr-2 sm:ml-4">
-          <img class="lg:w-3/4 md:w-2/3 sm:w-1/2 object-contain"
+        <div class="flex items-center pl-6 mx-auto gap-6 ">
+          <img class=" object-contain w-2/3 "
             src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Asteroids-KnownNearEarthObjects-Animation-UpTo20180101.gif"
           />
-          <p class="  md:w-80 sm:w-60">
+          <p class="text-gallery ">
             The asteroid belt is a torus-shaped region in the Solar System,
             centered on the Sun and roughly spanning the space between the
             orbits of the planets Jupiter and Mars. It contains a great many
             solid, irregularly shaped bodies called asteroids or minor planets.
             The identified objects are of many sizes, but much smaller than
             planets. The asteroid belt formed from the primordial solar nebula
-            as a group of planetesimals. Planetesimals are the smaller
-            precursors of the protoplanets. Between Mars and Jupiter, however,
-            gravitational perturbations from Jupiter imbued the protoplanets
-            with too much orbital energy for them to accrete into a planet.
+            as a group of planetesimals. 
           </p>
         </div>
 
@@ -47,12 +43,12 @@
         </div>
       </div>
       <div id="slide3" class="carousel-item relative w-full ">
-        <div class="flex m-auto  items-center gap-6  ml-20 mt-36 md:gap-4  md:mt-8 
-        md:ml-8 sm:mt-2 sm:mr-2 sm:ml-4">
-          <img class="lg:w-3/4 md:w-2/3 sm:w-1/2 sm:object-contain"
+        <div class="flex  items-center gap-6 pl-6  mx-auto ">
+          <img class="  object-contain w-2/3 "
             src="https://scitechdaily.com/images/Interstellar-Asteroids.gif"
           />
-          <P class="  md:w-80 sm:w-60">
+          <P class="text-gallery">
+            
             The asteroid belt is the smallest and innermost known circumstellar
             disc in the Solar System. Classes of small Solar System bodies in
             other regions are the near-Earth objects, the centaurs, the Kuiper

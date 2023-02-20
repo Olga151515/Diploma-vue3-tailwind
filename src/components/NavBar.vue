@@ -1,3 +1,7 @@
+<script setup>
+defineProps(["planet"]);
+
+</script>
 <template>
   <div class="navbar bg-black fixed top-0 w-full z-50">
     <div class="flex-1"></div>
@@ -29,11 +33,11 @@
           </router-link>
 
           <ul class="p-2 bg-base-100 z-10">
-            <router-link to="/card/mercury">
+            <router-link :to="`/card`">
               <li><a>Mercury</a></li>
             </router-link>
 
-            <router-link to="/card/venus">
+            <router-link :to="`/card`">
               <li><a>Venus</a></li>
             </router-link>
 
