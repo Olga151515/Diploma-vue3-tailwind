@@ -8,8 +8,6 @@ module.exports = {
     backgroundImage: {
       'Earth1': "url('../Earth1.gif')",
       'Planet': "url('../Planet.gif')",
-      'Jet': "url('../Jet.gif')",
-      'Jet': "url('../giphy.gif')",
       'Stars': "url('../stars.jpeg')",
       'Space2': "url('../assets/Space2.jpeg')",
       'Jet': "url('../StarSky.jpeg')",

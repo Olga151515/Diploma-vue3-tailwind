@@ -2,7 +2,6 @@
 import { storeToRefs } from "pinia";
 import { useRoute } from "vue-router";
 import { usePlanetsStore } from "../stores/planets";
-import BackHome from "../components/BackHome.vue";
 import LoadingError from "../components/LoadingError.vue";
 
 const { planet, loading, error } = storeToRefs(usePlanetsStore());
@@ -14,12 +13,10 @@ fetchPlanet(route.params.planet);
 
 <template>
   <div
-    class="flex flex-col items-center justify-center h-auto m-2 w-auto"
+    class="flex flex-col items-center  "
     v-if="planet"
   >
-    <router-link to="/planet">
-      <BackHome class="absolute top-0 left-1/2" />
-    </router-link>
+   
     <LoadingError :loading="loading" :error="error" />
     <div class="">
       <img
@@ -52,15 +49,5 @@ fetchPlanet(route.params.planet);
         {{ planet.facts }}
       </p>
     </div>
-    <!-- <div
-      class="ml-5 container flex flex-col items-center w-auto p-4 text-left h-auto"
-    >
-      <h2 class="text-2xl font-bold font-serif">
-        Discovery
-      </h2>
-      <p class="p-6 text-info-content ">
-        {{ planet.descovery }}
-      </p>
-    </div> -->
   </div>
 </template>

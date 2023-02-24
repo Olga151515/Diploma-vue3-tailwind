@@ -33,11 +33,11 @@ defineProps(["planet"]);
           </router-link>
 
           <ul class="p-2 bg-base-100 z-10">
-            <router-link :to="`/card`">
+            <router-link to="/card/mercury">
               <li><a>Mercury</a></li>
             </router-link>
 
-            <router-link :to="`/card`">
+            <router-link to="/card/venus">
               <li><a>Venus</a></li>
             </router-link>
 

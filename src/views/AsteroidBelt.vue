@@ -24,7 +24,7 @@
           <img class=" object-contain w-2/3 "
             src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Asteroids-KnownNearEarthObjects-Animation-UpTo20180101.gif"
           />
-          <p class="text-gallery ">
+          <p class="text-gallery pr-8">
             The asteroid belt is a torus-shaped region in the Solar System,
             centered on the Sun and roughly spanning the space between the
             orbits of the planets Jupiter and Mars. It contains a great many
@@ -47,7 +47,7 @@
           <img class="  object-contain w-2/3 "
             src="https://scitechdaily.com/images/Interstellar-Asteroids.gif"
           />
-          <P class="text-gallery">
+          <p class="text-gallery pr-8">
             
             The asteroid belt is the smallest and innermost known circumstellar
             disc in the Solar System. Classes of small Solar System bodies in
@@ -55,9 +55,8 @@
             belt objects, the scattered disc objects, the sednoids, and the Oort
             cloud objects. About 60% of the main belt mass is contained in the
             four largest asteroids: Ceres, Vesta, Pallas, and Hygiea. The total
-            mass of the asteroid belt is calculated to be 3% that of the
-            Moon.</P
-          >
+            mass of the asteroid belt is calculated to be 3% that of the Moon.
+          </p>
         </div>
         <div
           class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
