@@ -20,11 +20,11 @@
       </div>
 
       <div id="slide2" class="carousel-item relative w-full  ">
-        <div class="flex items-center pl-6 mx-auto gap-6 ">
-          <img class=" object-contain w-2/3 "
+        <div class="flex flex-col item-center justify-center md:flex-row  p-10 mx-auto gap-6 ">
+          <img class=" object-contain w-full md:w-2/3"
             src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Asteroids-KnownNearEarthObjects-Animation-UpTo20180101.gif"
           />
-          <p class="text-gallery pr-8">
+          <p class=" md:my-auto">
             The asteroid belt is a torus-shaped region in the Solar System,
             centered on the Sun and roughly spanning the space between the
             orbits of the planets Jupiter and Mars. It contains a great many
@@ -43,11 +43,11 @@
         </div>
       </div>
       <div id="slide3" class="carousel-item relative w-full ">
-        <div class="flex  items-center gap-6 pl-6  mx-auto ">
-          <img class="  object-contain w-2/3 "
+        <div class="flex flex-col item-center justify-center md:flex-row  p-10 mx-auto gap-6 ">
+          <img class="  object-contain w-full md:w-2/3 "
             src="https://scitechdaily.com/images/Interstellar-Asteroids.gif"
           />
-          <p class="text-gallery pr-8">
+          <p class="md:my-auto">
             
             The asteroid belt is the smallest and innermost known circumstellar
             disc in the Solar System. Classes of small Solar System bodies in

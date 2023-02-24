@@ -10,16 +10,16 @@ onMounted(() => {
 
 <template>
   <div
-    class="w-full h-fill bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
+    class="w-full h-fill mt-10 md:mt-0 bg-cover flex items-center bg-[url('../night.gif')] flex-col justify-between relative"
   >
-    <div class="flex justify-between items-center gap-10">
+    <div class="flex flex-col m-auto md:flex-row justify-between items-center md:gap-10 ">
       <transition name="bounce">
         <h1
-          class="text-4xl font-semibold font-serif text-slate-400 italic"
+          class="text-2xl lg:text-4xl pl-10 font-semibold font-serif text-cyan-100 italic"
           v-if="showH1"
         >
           Solar System
-          <span class="material-icons text-4xl">rocket_launch</span>
+          <span class="material-icons text-2xl lg:text-4xl">rocket_launch</span>
         </h1>
       </transition>
 

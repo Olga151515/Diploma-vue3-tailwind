@@ -1,23 +1,30 @@
 <script setup>
 defineProps(["planet"]);
-
 </script>
+
 <template>
-  <div class="navbar bg-black fixed top-0 w-full z-50">
+  <div class="text-2xl  md:text-lg navbar bg-black fixed top-0 w-full z-50">
     <div class="flex-1"></div>
 
-    <div class="flex-none text-slate-400 font-semibold">
-      <ul class="menu menu-horizontal px-1">
+    <div class="flex-none   font-semibold text-cyan-100">
+      <ul class="menu menu-horizontal">
         <router-link to="/">
-          <li><a>Home </a></li>
+          <li><a>
+            <i class="fa-solid fa-house md:hidden "></i>
+            <p class="hidden md:block">Home</p>  
+          </a></li>
         </router-link>
         <router-link to="/about">
-          <li><a>About </a></li>
+          <li><a>
+            <i class="fa-solid fa-magnifying-glass md:hidden t"></i>
+            <p class="hidden md:block">About</p>  
+           </a></li>
         </router-link>
         <li tabindex="0">
           <router-link to="/planet">
-            <a class="flex gap-2 items-center">
-              Planets
+            <a class="flex gap-1 items-center  ">
+              <i class="fa-solid fa-earth-americas md:hidden "></i>
+            <p class="hidden md:block">Planets</p>  
               <svg
                 class="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +39,7 @@ defineProps(["planet"]);
             </a>
           </router-link>
 
-          <ul class="p-2 bg-base-100 z-10">
+          <ul class="p-2 bg-base-100 z-10 text-lg md:text-xl">
             <router-link to="/card/mercury">
               <li><a>Mercury</a></li>
             </router-link>
@@ -67,15 +74,18 @@ defineProps(["planet"]);
           </ul>
         </li>
         <router-link to="/asteroidBelt">
-          <li><a>Asteroid Belt</a></li>
+          <li><a>
+            <i class="fa-solid fa-meteor md:hidden"></i>
+            <p class="hidden md:block">Asteroid Belt</p>      
+          </a></li>
         </router-link>
 
         <router-link to="/gallery">
           <li>
-            <a
-              >Gallery
+            <a>
+              <p class="hidden md:block">Gallery</p>
               <img
-                class="w-7"
+                class="w-9 "
                 src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"
                 alt="NASA"
             /></a>
