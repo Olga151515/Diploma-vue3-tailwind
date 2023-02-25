@@ -10,21 +10,25 @@ defineProps(["planet"]);
       <ul class="menu menu-horizontal">
         <router-link to="/">
           <li><a>
-            <i class="fa-solid fa-house md:hidden "></i>
+            <div class="tooltip tooltip-bottom" data-tip="Home">
+              <i class="fa-solid fa-house md:hidden "></i>
+            </div>
             <p class="hidden md:block">Home</p>  
           </a></li>
         </router-link>
         <router-link to="/about">
           <li><a>
+            <div class="tooltip tooltip-bottom" data-tip="About">
             <i class="fa-solid fa-magnifying-glass md:hidden t"></i>
+            </div>
             <p class="hidden md:block">About</p>  
            </a></li>
         </router-link>
         <li tabindex="0">
           <router-link to="/planet">
-            <a class="flex gap-1 items-center  ">
+            <a class="flex gap-1 items-center">
               <i class="fa-solid fa-earth-americas md:hidden "></i>
-            <p class="hidden md:block">Planets</p>  
+              <p class="hidden md:block">Planets</p>  
               <svg
                 class="fill-current"
                 xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +79,9 @@ defineProps(["planet"]);
         </li>
         <router-link to="/asteroidBelt">
           <li><a>
+            <div class="tooltip tooltip-bottom" data-tip="Asteroid Belt">
             <i class="fa-solid fa-meteor md:hidden"></i>
+            </div>
             <p class="hidden md:block">Asteroid Belt</p>      
           </a></li>
         </router-link>
@@ -84,11 +90,13 @@ defineProps(["planet"]);
           <li>
             <a>
               <p class="hidden md:block">Gallery</p>
+              <div class="tooltip tooltip-bottom" data-tip="Gallery">
               <img
                 class="w-9 "
                 src="https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg"
-                alt="NASA"
-            /></a>
+                alt="NASA"/>
+                </div>
+              </a>
           </li>
         </router-link>
       </ul>
